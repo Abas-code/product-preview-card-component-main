@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+  
+  <style>
+    *{margin:0; padding:0; box-sizing:border-box;}
+
+    @media only screen and (max-width:300px){
+      body{display:none;}
+    }
+
+    @media only screen and (min-width:320px) and (max-width:425px){
+      body{
+        width:100vw; height:100vh; overflow-x:hidden;
+        background:#f2ebe3; display:flex;
+        flex-direction:column; justify-content:center;
+        align-items:center;
+      }
+      .mobile-image{
+        width:90vw; height:auto; border-radius:10px 10px 0 0;
+      }
+      .desktop-image{display:none;}
+      .text{
+        width:90vw; height:50vh; background:white;
+        border-radius:0 0 10px 10px; padding:5vw; display:flex;
+        flex-direction:column; justify-content:space-between;
+      }
+      h3,p,.span2,button{
+        font-family:'Montserrat', sans-serif; font-size:14px;
+      }
+      h1,.span1{
+        font-family:'Fraunces', serif; font-size:32px;
+        font-weight:1000;
+      }
+      h3{font-weight:normal; letter-spacing:0.5vh;}
+      .span1{
+        vertical-align:middle; padding:0 2vh 0 0;
+        color:#3c8067;
+      }
+      .span2{text-decoration-line:line-through;}
+      button{
+        width:100%; color:white; background:#3c8067;
+        border-radius:10px; height:7.5vh; border:none;
+      }
+      .cart{width:14px; height:auto;}
+    }
+
+    @media only screen and (min-width:426px) and (max-width:768px){
+      body{display:none;}
+    }
+
+    @media only screen and (min-width:769px) and (max-width:1440px){
+      body{
+        width:100vw; height:100vh; background:#f2ebe3;
+        display:flex; justify-content:center; align-items:center;
+      }
+      .mobile-image{display:none;}
+      .desktop-image{
+        width:300px; height:450px; border-radius:10px 0 0 10px;
+      }
+      .text{
+        width:300px; height:450px; background:#fff;
+        border-radius:0 10px 10px 0; padding:3vh; display:flex;
+        flex-direction:column; justify-content:space-between;
+      }
+      h3,p,.span2,button{
+        font-family:'Montserrat', sans-serif; font-size:14px;
+      }
+      h1,.span1{
+        font-family:'Fraunces', serif; font-size:32px;
+        font-weight:1000;
+      }
+      h3{font-weight:normal; letter-spacing:0.5vh;}
+      .span1{
+        vertical-align:middle; padding:0 2vh 0 0;
+        color:#3c8067;
+      }
+      .span2{text-decoration-line:line-through;}
+      button{
+        width:100%; color:white; background:#3c8067;
+        border-radius:10px; height:7.5vh; border:none;
+      }
+      .cart{width:14px; height:auto;}
+      button:hover{background:#183329; cursor:pointer;}
+    }
+
+    @media only screen and (min-width:1441px){
+      body{display:none;}
+    }
+  </style>
+</head>
+
+<body>
+  <img src="./images/image-product-mobile.jpg" alt="Perfume Image" class="mobile-image">
+
+  <img src="./images/image-product-desktop.jpg" alt="Perfume Image" class="desktop-image">
+
+  <div class="text">
+    <h3>PERFUME</h3>
+    <h1>Gabrielle Essence Eau De Parfum</h1>
+    <p>
+      A floral, solar and voluptuous interpretation composed by
+      Olivier Polge, Perfumer-Creator for the House of CHANEL.
+    </p>
+    <p><span class="span1">$149.99</span> <span class="span2">$169.99</span></p>
+    <button type="button">
+      <img src="./images/icon-cart.svg" alt="Cart Icon" class="cart">
+      Add to Cart
+    </button>
+  </div>
+</body>
+</html>
