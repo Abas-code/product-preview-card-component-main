@@ -26,7 +26,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: (https://github.com/Abas-code/product-preview-card-component-main)
-- Live Site URL: ()
+- Live Site URL: (https://product-preview-card-component-main-nklr.vercel.app/)
 
 ## My process
 
