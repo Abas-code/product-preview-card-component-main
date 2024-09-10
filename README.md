@@ -20,13 +20,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![mobile view](./design/mobile-design-1.jpg)
-![desktop view](./design/desktop-design-1.jpg)
+![mobile view](./design/mobile-design.jpg)
+![desktop view](./design/desktop-design.jpg)
 
 ### Links
 
 - Solution URL: (https://github.com/Abas-code/product-preview-card-component-main)
-- Live Site URL: (http://product-preview-card-component-main-abas-code.vercel.app/)
+- Live Site URL: ()
 
 ## My process
 
